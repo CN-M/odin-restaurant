@@ -1,0 +1,23 @@
+#content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .nav {
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    li {
+        list-style: none;
+    }
+
+    .contact {
+        justify-content: center;
+    }
+}
